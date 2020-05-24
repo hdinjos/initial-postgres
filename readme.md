@@ -34,4 +34,5 @@ the postgres is user to enter database system
 you can make the other user for database posgre system
 
 ### what next
-1.[make new user for database system](https://github.com/hdinjos/initial-postgres/tree/master/add-new-user)
+1. [make new user for database system](https://github.com/hdinjos/initial-postgres/tree/master/add-new-user)
+2. [make a database]
