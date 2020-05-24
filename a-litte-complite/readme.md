@@ -26,4 +26,9 @@ example: CREATE TABLE students(id int, name text, age int, address text);
 ```
 INSERT INTO a_table(data1,data2,data3,etc) VALUES (value1,value2,value3,etc);
 ```
-example: INSERT INTO students(id,name,age,address) VALUES (5.'Yuda Saputra',23.'Pati'); 
+example: INSERT INTO students(id,name,age,address) VALUES (5,'Yuda Saputra',23,'Pati'); 
+## list all data on table
+```
+SELECT * FROM a_table;
+```
+example: SELECT * FROM students;
