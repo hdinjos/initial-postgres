@@ -19,4 +19,11 @@ so,manually set data directory in your system
 ```
 initdb --locale en_US.UTF-8 -D /var/lib/postgres/data
 ```
-
+### active the service postgresql in system
+before it, if you still login with user postgres. logout it
+and active the service
+```
+sudo systemctl start postgresql
+```
+### set auto run on booting (once if the first installing)
+`sudo systemctl enable postgresql`
