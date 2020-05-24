@@ -27,3 +27,11 @@ sudo systemctl start postgresql
 ```
 ### set auto run on booting (once if the first installing)
 `sudo systemctl enable postgresql`
+
+### ready to run
+```psql postgres```
+the postgres is user to enter database system
+you can make the other user for database posgre system
+
+### what next
+1. make new user for database system
