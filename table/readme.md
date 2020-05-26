@@ -18,8 +18,8 @@ example: INSERT INTO students(id,name,age,address) VALUES (5,'Yuda Saputra',23,'
 SELECT * FROM a_table;
 ```
 example: SELECT * FROM students;
-## distinct clausa (filter the data origin in rows that same data will count one)
+## distinct clausa (filter the data origin in columns that same data will count one)
 ```
-SELECT DISTINCT row_table FROM table;
+SELECT DISTINCT column_table FROM table;
 ```
 example: SELECT DISTINCT name FROM students;
