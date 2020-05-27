@@ -29,4 +29,11 @@ SELECT * FROM table WHERE column_name='search_data';
 ```
 example: (1) SELECT * FROM students WHERAE name='yuda';
         (2) SELECT * FROM students WHERE age<22; (can also use comparison operator);
-if the data you are looking does not match, then postgresql will not output anything`
+if the data you are looking does not match, then postgresql will not output anything
+## search data base on column *except*
+```
+SELECT * FROM table WHERE NOT column_name='search_data';
+```
+example: (1) SELECT * FROM students WHERAE NOT name='yuda';
+        (2) SELECT * FROM students WHERE NOT age<22; (can also use comparison operator);
+this query same above, but will produce data that is the opposite of what we are searching
