@@ -23,3 +23,10 @@ example: SELECT * FROM students;
 SELECT DISTINCT column_table FROM table;
 ```
 example: SELECT DISTINCT name FROM students;
+## search data based on column
+```
+SELECT * FROM table WHERE column_name='search_data';
+```
+example: (1) SELECT * FROM students WHERAE name='yuda';
+        (2) SELECT * FROM students WHERE age<22; (can also use comparison operator);
+if the data you are looking does not match, then postgresql will not output anything`
