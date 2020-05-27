@@ -37,3 +37,9 @@ SELECT * FROM table WHERE NOT column_name='search_data';
 example: (1) SELECT * FROM students WHERAE NOT name='yuda';
         (2) SELECT * FROM students WHERE NOT age<22; (can also use comparison operator);
 this query same above, but will produce data that is the opposite of what we are searching
+## search data base on column use logic operator
+```
+SELECT * FROM table WHERE column_name='search_data' AND/OR column_name='search_data';
+```
+example: (1) SELECT * FROM students WHERAE name='yuda' OR age=24;
+        (2) SELECT * FROM students WHERE  name='yuda' AND address='Yogyakarta';
