@@ -27,19 +27,25 @@ example: SELECT DISTINCT name FROM students;
 ```
 SELECT * FROM table WHERE column_name='search_data';
 ```
-example: (1) SELECT * FROM students WHERAE name='yuda';
+example: (1) SELECT * FROM students WHERE name='yuda';
         (2) SELECT * FROM students WHERE age<22; (can also use comparison operator);
 if the data you are looking does not match, then postgresql will not output anything
 ## search data base on column *except*
 ```
 SELECT * FROM table WHERE NOT column_name='search_data';
 ```
-example: (1) SELECT * FROM students WHERAE NOT name='yuda';
+example: (1) SELECT * FROM students WHERE NOT name='yuda';
         (2) SELECT * FROM students WHERE NOT age<22; (can also use comparison operator);
 this query same above, but will produce data that is the opposite of what we are searching
 ## search data base on column use logic operator
 ```
 SELECT * FROM table WHERE column_name='search_data' AND/OR column_name='search_data';
 ```
-example: (1) SELECT * FROM students WHERAE name='yuda' OR age=24;
+example: (1) SELECT * FROM students WHERE name='yuda' OR age=24;
         (2) SELECT * FROM students WHERE  name='yuda' AND address='Yogyakarta';
+## search title data with LIKE
+```
+SELECT * FROM table WHERE column_name LIKE 'string%string';
+```
+example: (1) SELECT * FROM students WHERE name LIKE '%sa'; (search the end title)
+        (2) SELECT * FROM students WHERE  name LIKE 'H%'; (search the start title)
