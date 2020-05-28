@@ -58,7 +58,7 @@ the query intends to look for ages in the range 21 to 25
 that look like OR operator
 ## search data base on joining column_name
 ```
-SELECT CONCATE (column_a, column_b,column_n) FROM table;
+SELECT CONCAT (column_a, column_b,column_n) FROM table;
 ```
 example: SELECT CONCAT (name,age) FROM students;
 it will joining the data between name and age without whitespace
