@@ -49,3 +49,10 @@ SELECT * FROM table WHERE column_name LIKE 'string%string';
 ```
 example: (1) SELECT * FROM students WHERE name LIKE '%sa'; (search the end title)
         (2) SELECT * FROM students WHERE  name LIKE 'H%'; (search the start title)
+## search data base on column use BETWEEN
+```
+SELECT * FROM table WHERE column_name BETWEEN value1 AND value2;
+```
+example: SELECT * FROM students WHERE age BETWEEN 21 AND 25;
+the query intends to look for ages in the range 21 to 25 
+that look like OR operator
