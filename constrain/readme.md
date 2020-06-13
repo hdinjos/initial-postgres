@@ -16,3 +16,9 @@ in the restaurant there is a list of food menus and prices. what if the food men
 double, that's the use of unique constraints
 
 ``` create table food(name text unique, price int);```
+
+## 2. PRIMARY KEY
+one of the constrain and it's actually important
+example: 
+
+``` create table peoples(id int primary key, name text, age int);```
