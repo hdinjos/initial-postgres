@@ -29,3 +29,11 @@ usually,it use together with primary key constrain
 example:
 
 ```create table books(id serial primary key, name text, publisher text);```
+
+## 5. DEFAULT
+
+example:
+for fill a origin value or default value in record/row which that column is set
+```create table cars(id int, mileage int default 0);```
+this example if you insert a data in cars table, try to empty value of milage column, that fill is id only.
+You can look, that milage column can't empty, but fill with zero number
