@@ -17,8 +17,15 @@ double, that's the use of unique constraints
 
 ``` create table food(name text unique, price int);```
 
-## 2. PRIMARY KEY
+## 3. PRIMARY KEY
 one of the constrain and it's actually important
 example: 
 
 ``` create table peoples(id int primary key, name text, age int);```
+
+## 4. SERIAL
+make automatic additions to values in the column table
+usually,it use together with primary key constrain
+example:
+
+```create table books(id serial primary key, name text, publisher text);```
