@@ -1,11 +1,16 @@
-# make easy to learn postgre sql database from zero to hero
+# Make Easy To Learn Postgre Sql Database From Zero To Hero
 
 ## install on your system
 ### arch linux => manjaro
-`sudo pacman -S postgresql`
+```
+sudo pacman -S postgresql
+```
+In the other linux distributions, this command may be different
 
 ### check the version
-`postgres --version`
+```
+postgres --version
+```
 
 ### login with postgres user
 ```
@@ -26,10 +31,14 @@ and active the service
 sudo systemctl start postgresql
 ```
 ### set auto run on booting (once if the first installing)
-`sudo systemctl enable postgresql`
+```
+sudo systemctl enable postgresql
+```
 
 ### ready to run
-```psql postgres```
+```
+psql postgres
+```
 the postgres is user to enter database system
 you can make the other user for database posgre system
 
@@ -38,4 +47,4 @@ you can make the other user for database posgre system
 2. [enter new user](https://github.com/hdinjos/initial-postgres/tree/master/enter-new-user)
 3. [database](https://github.com/hdinjos/initial-postgres/tree/master/database)
 4. [table](https://github.com/hdinjos/initial-postgres/tree/master/table)
-5. contstrain
+5. [constraints](https://github.com/hdinjos/initial-postgres/tree/master/constrain)
