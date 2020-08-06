@@ -47,4 +47,4 @@ you can make the other user for database posgre system
 2. [enter new user](https://github.com/hdinjos/initial-postgres/tree/master/enter-new-user)
 3. [database](https://github.com/hdinjos/initial-postgres/tree/master/database)
 4. [table](https://github.com/hdinjos/initial-postgres/tree/master/table)
-5. [constraints](https://github.com/hdinjos/initial-postgres/tree/master/constrain)
+5. [constraints](https://github.com/hdinjos/initial-postgres/tree/master/constraints)
